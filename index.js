@@ -19,7 +19,7 @@ app.use("/", (req, res) => {
   res.send("Hello to Blog API");
 });
 
-const CONNECTION_URL = 'mongodb+srv://js_mastery:M6WfDnJEoj9HkV2d@practice.jto9p.mongodb.net/memories_app?retryWrites=true&w=majority';
+const CONNECTION_URL = 'mongodb+srv://db-Test:test123@cluster0.jsigv.mongodb.net/node-tuts';
 const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
